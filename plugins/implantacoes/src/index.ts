@@ -1,3 +1,3 @@
-import { CatalogIcon as ChatIconBackstage } from '@backstage/core-components';
+import { CatalogIcon as CatalogIconBackstage } from '@backstage/core-components';
 export { implantacoesPlugin, ImplantacoesPage } from './plugin';
-export const ChatIcon = ChatIconBackstage;
+export const CatalogIcon = CatalogIconBackstage;
