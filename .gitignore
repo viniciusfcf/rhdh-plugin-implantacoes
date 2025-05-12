@@ -64,4 +64,4 @@ e2e-test-report/
 
 dist-dynamic
 
-deploy/*.tgz
+#deploy/*.tgz
