@@ -12,6 +12,7 @@ import {
 } from '@backstage/plugin-user-settings';
 import { SidebarSearchModal } from '@backstage/plugin-search';
 import {
+  CatalogIcon,
   Sidebar,
   sidebarConfig,
   SidebarDivider,
@@ -75,6 +76,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarItem icon={ExtensionIcon} to="api-docs" text="APIs" />
         <SidebarItem icon={LibraryBooks} to="docs" text="Docs" />
         <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
+         <SidebarItem icon={CatalogIcon} to="implantacoes" text="Implantações" />
         {/* End global nav */}
         <SidebarDivider />
         <SidebarScrollWrapper>
